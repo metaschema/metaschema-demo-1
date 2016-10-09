@@ -1,0 +1,398 @@
+/*
+  _   _____  _ _                  __ __ 
+ | | |  __ \(_) |                /_ /_ |
+ | |_| |__) |_| |_ ___  _ __   ___| || |
+ | __|  _  /| | __/ _ \| '_ \ / _ \ || |
+ | |_| | \ \| | || (_) | | | |  __/ || |
+  \__|_|  \_\_|\__\___/|_| |_|\___|_||_|
+/////////////////////////////////////////////////////////////////////////////////////////////
+MEDIA QUERIES PER DIVERSI DISPOSTIVI
+-Minismartphone (es. Sony Xperia e4g)
+-iPhone4
+-iPhone6
+-iPad
+-Laptop Retina
+-Laptop non Retina
+/////////////////////////////////////////////////////////////////////////////////////////////
+            _____       _                            _         _                      
+           |_   _|     (_)                          | |       | |                     
+  _ __ ___   | |  _ __  _   ___ _ __ ___   __ _ _ __| |_ _ __ | |__   ___  _ __   ___ 
+ | '_ ` _ \  | | | '_ \| | / __| '_ ` _ \ / _` | '__| __| '_ \| '_ \ / _ \| '_ \ / _ \
+ | | | | | |_| |_| | | | | \__ \ | | | | | (_| | |  | |_| |_) | | | | (_) | | | |  __/
+ |_| |_| |_|_____|_| |_|_| |___/_| |_| |_|\__,_|_|   \__| .__/|_| |_|\___/|_| |_|\___|
+                                                        | |                           
+                                                        |_|                  
+*/
+@media only screen and (max-width: 360px) and (orientation : portrait) {
+	.header{height: 80px;
+    width: 100%;
+        box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    z-index: 100;
+        left: 0;}
+    .main-text{
+            text-align: justify;
+    padding: 0 20px 10px 20px;
+    box-sizing: border-box;
+    color: #4D4D4D;
+    font-size: 1em;
+    /* letter-spacing: 0.04vw; */
+    line-height: 1em
+    }
+    .main{
+        width:100%;
+    }
+    .calendar{
+    display:none;
+    }
+    .text-evd {
+    background-color: white;
+    display: inline-block;
+    color: #999;
+    width: 50%;
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: left;
+    box-sizing: border-box;
+}
+    .nav-elm{
+        color: black;
+    font-family: 'georgia';
+    font-weight: 200;
+    font-size: 0.7em;
+    line-height: 80px;
+    
+    }
+
+    .footer{
+        box-sizing: border-box;
+    }
+    .header-logo {
+    height: 50%;
+    margin-top: 25%;
+}
+}
+/* iPhone4---------------------------------------------------------------------------------------------
+  _ _____  _                              _  _   
+ (_)  __ \| |                            | || |  
+  _| |__) | |__   ___  _ __   ___        | || |_ 
+ | |  ___/| '_ \ / _ \| '_ \ / _ \       |__   _|
+ | | |    | | | | (_) | | | |  __/          | |  
+ |_|_|    |_| |_|\___/|_| |_|\___|          |_|          
+/* Portrait 
+
+    //////////////
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //////////////
+
+
+*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .header{height: 80px;
+    width: 100%;
+        box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    z-index: 100;
+        left: 0;}
+    .main-text{
+            text-align: justify;
+    padding: 0 20px 10px 20px;
+    box-sizing: border-box;
+    color: #4D4D4D;
+    font-size: 1em;
+    /* letter-spacing: 0.04vw; */
+    line-height: 1em
+    }
+    .main{
+        width:100%;
+    }
+    .calendar{
+    display:none;
+    }
+    .text-evd {
+    background-color: white;
+    display: inline-block;
+    color: #999;
+    width: 50%;
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: left;
+    box-sizing: border-box;
+}
+    .nav-elm{
+        color: black;
+    font-family: 'georgia';
+    font-weight: 200;
+    font-size: 0.7em;
+    line-height: 80px;
+    
+    }
+    .footer{
+        box-sizing: border-box;
+    }
+    .header-logo {
+    height: 50%;
+    margin-top: 25%;
+}
+}
+
+
+/* Landscape 
+    //////////////////////////////////////
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  // 
+    //                                  //
+    //////////////////////////////////////
+*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    
+}
+
+
+/* iPhone6--------------------------------------------------------------------------------------------- 
+  _ _____  _                                __  
+ (_)  __ \| |                              / /  
+  _| |__) | |__   ___  _ __   ___         / /_  
+ | |  ___/| '_ \ / _ \| '_ \ / _ \       | '_ \ 
+ | | |    | | | | (_) | | | |  __/       | (_) |
+ |_|_|    |_| |_|\___/|_| |_|\___|        \___/    
+
+/* Portrait 
+
+    //////////////
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //////////////
+
+
+*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .header{height: 80px;
+    width: 100%;
+        box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    z-index: 100;
+        left: 0;}
+    .main-text{
+            text-align: justify;
+    padding: 0 20px 10px 20px;
+    box-sizing: border-box;
+    color: #4D4D4D;
+    font-size: 1em;
+    /* letter-spacing: 0.04vw; */
+    line-height: 1em
+    }
+    .main{
+        width:100%;
+    }
+    .calendar{
+    display:none;
+    }
+    .text-evd {
+    background-color: white;
+    display: inline-block;
+    color: #999;
+    width: 50%;
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: left;
+    box-sizing: border-box;
+}
+    .nav-elm{
+        color: black;
+    font-family: 'georgia';
+    font-weight: 200;
+    font-size: 0.7em;
+    line-height: 80px;
+    
+    }
+
+    .footer{
+        box-sizing: border-box;
+    }
+    .header-logo {
+    height: 50%;
+    margin-top: 25%;
+}
+}
+
+
+/* Landscape 
+    //////////////////////////////////////
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  // 
+    //                                  //
+    //////////////////////////////////////
+*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    
+}
+
+
+/* iPad--------------------------------------------------------------------------------------------- 
+  _ _____          _ 
+ (_)  __ \        | |
+  _| |__) |_ _  __| |
+ | |  ___/ _` |/ _` |
+ | | |  | (_| | (_| |
+ |_|_|   \__,_|\__,_| 
+/* Portrait 
+
+    //////////////
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //          //
+    //////////////
+
+
+*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .header{height: 80px;
+    width: 100%;
+        box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    z-index: 100;
+        left: 0;}
+    .main-text{
+            text-align: justify;
+    padding: 0 20px 10px 20px;
+    box-sizing: border-box;
+    color: #4D4D4D;
+    font-size: 1em;
+    /* letter-spacing: 0.04vw; */
+    line-height: 1em
+    }
+    .main{
+        width:100%;
+    }
+    .calendar{
+    display:none;
+    }
+    .text-evd {
+    background-color: white;
+    display: inline-block;
+    color: #999;
+    width: 50%;
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: left;
+    box-sizing: border-box;
+}
+    .nav-elm{
+        color: black;
+    font-family: 'georgia';
+    font-weight: 200;
+    font-size: 0.7em;
+    line-height: 80px;
+    
+    }
+    .footer{
+        box-sizing: border-box;
+    }
+    .header-logo {
+    height: 50%;
+    margin-top: 25%;
+}
+}
+
+
+/* Landscape 
+    //////////////////////////////////////
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  //
+    //                                  // 
+    //                                  //
+    //////////////////////////////////////
+*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+   
+}
+
+
+/* ----------- Non-Retina Screens -------------------------------------------------------------------------------------------------------- 
+       ______ _   _             
+      |  ____| | (_)            
+  _ __| |__  | |_ _ _ __   __ _ 
+ | '__|  __| | __| | '_ \ / _` |
+ | |  | |____| |_| | | | | (_| |
+ |_|  |______|\__|_|_| |_|\__,_|
+*/
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+}
+
+
+/* ----------- Retina Screens -------------------------------------------------------------------------------------------------------- 
+         ____                 _   _             
+        / __ \               | | (_)            
+  _ __ | |  | |_ __  _ __ ___| |_ _ _ __   __ _ 
+ | '_ \| |  | | '_ \| '__/ _ \ __| | '_ \ / _` |
+ | | | | |__| | | | | | |  __/ |_| | | | | (_| |
+ |_| |_|\____/|_| |_|_|  \___|\__|_|_| |_|\__,_|
+                                                */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    
+}
+/*
+  _    ____      _       
+ | |  / __ \    | |      
+ | |_| |  | | __| | ___  
+ | __| |  | |/ _` |/ _ \ 
+ | |_| |__| | (_| | (_) |
+  \__|\____/ \__,_|\___/ 
+*/
+p {
+    font-size: 0.9em;
+}

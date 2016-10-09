@@ -1,0 +1,263 @@
+.wrapper {
+    width:100%;
+}
+
+.container {
+    width:100%;
+}
+
+body {
+    margin:0;
+    font-family:sans-serif;
+    overflow-x:hidden; 
+    background: url('../img/parallax.jpg');
+    background-position: 50% 2%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    width:100%;
+    display:inline-block;
+    background-color:white;
+}
+h2{
+        font-weight: 200;
+    color:#4d4d4d
+}
+.calendar {
+    width: 33%;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    right: 0;
+    margin: 6%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    margin-top: 196px;
+}
+.fc-day-grid-container.fc-scroller{
+    overflow:hidden;
+}
+
+.fc-day-grid-event{
+    width: 100% !important;
+    height: 61px !important;
+    padding: 0 !important;
+    margin: -23px -1px !important;
+    top: 0 !important;
+    left: 0 !important;
+    position: absolute !important;
+    border-radius: 0px !important;
+    background-color: rgba(0,0,255,0.3) !important;
+}
+.fc-event-container{
+    position:relative !important;
+}
+.fc-time,.fc-title{
+    display:none !important;
+}
+#my-svg {
+    width:60%;
+    margin-left:20%;
+}
+
+.costruzione {
+    font-family: 'josefin sans';
+    font-size:3vw;
+    width:100%;
+    text-align:center;
+    margin-bottom:50px;
+}
+.svg.finished *{fill-opacity:1}
+.svg *{
+    
+}
+.logo {
+    width:100%;
+}
+
+.main-text {
+       text-align: justify;
+    box-sizing: border-box;
+    color: #4D4D4D;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    padding: 50px;
+    letter-spacing: 0.04vw;
+    line-height: 1.5vw;
+}
+button{
+    background-color:white !important;
+    background-image:none !important;
+    border:none !important;
+}
+
+.spacer {
+    height:100px;
+        background-color:transparent;
+}
+
+.supermain {
+    background-color:white;
+        margin-top:80px;
+}
+
+.title {
+    width:100%;
+    padding:50px;
+    box-sizing: border-box;
+    text-align:center;
+}
+.title h2{font-size:3em}
+
+.cont-images {
+    width:100%;
+}
+
+.evid-image {
+    width:50%;
+    display:inline-block;
+    position:relative;
+}
+
+.evd-img {
+    width:100%;
+}
+
+.evidenza {
+    background-color:white;
+    text-align:center;
+}
+
+.text-evd {
+    background-color:white;
+    display:inline-block;
+    color:#999;
+    width:50%;
+    padding:55px;
+    text-align:justify;
+    box-sizing: border-box;
+}
+
+.header {
+    height:80px;
+    width:100%;
+    position:fixed;
+    background-color:white;
+    border-bottom:1px solid #ccc;
+    top:0;
+    z-index:100;
+    left:0;
+    box-sizing: border-box;
+}
+.header-container {
+	display: flex;
+    width:70%;
+    margin-left:15%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    
+}
+.nav-elm {
+	    color: #6e6e6e;
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 2vw;
+}
+.nav-elm:hover{
+    cursor:pointer;   
+}
+
+.header-logo {
+	    height: 70%;
+    margin-top: 15%;
+}
+.cont-logo {
+	height: 70px;
+	margin: 5px;
+}
+.footer {
+    width:100%;
+    background-color:#232323;
+    text-align:Center;
+    color:lightgrey;
+    padding:20px;
+    box-sizing: border-box;
+}
+@font-face {font-family: "georgia";src: url("fonts/georgia.eot");src: local("☺"),url("fonts/georgia.woff") format("woff"),url("fonts/georgia.ttf") format("truetype"),
+url("fonts/georgia.svg#georgia") format("svg");}
+.text-evidenza {
+    color:#4d4d4d
+}
+
+.logo-main {
+        width: 100%;
+}
+
+.title-kon {
+    width:60%;
+    margin-left:20%;
+}
+
+.kontiki-text {
+    width:100%;
+    background-color:white;
+    padding:5% 15% 5% 15%;
+    text-align:left;
+    box-sizing: border-box;
+}
+
+.logo-footer {
+    width:55px;
+}
+
+.img-prj {
+    width:100%;
+    height:99%;
+    position:absolute;
+    top:0;
+    transition:all 200ms ease;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,0c0466+100&0+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(12,4,102,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(12,4,102,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(12,4,102,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000c0466',GradientType=0 ); /* IE6-9 */
+
+}
+.img-prj:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,0c0466+100&0+0,0.38+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(12,4,102,0.38) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(12,4,102,0.38) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(12,4,102,0.38) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#610c0466',GradientType=0 ); /* IE6-9 */
+   
+}
+
+.img-evd {
+    width:50%;
+    transition:all 200ms ease;
+    position:absolute;
+ 
+}
+
+#growing {
+    right:20px;
+    bottom:20px;
+       -webkit-filter:invert(1);
+    filter:invert(1)
+}
+
+#kontiki {
+    right:20px;
+    bottom:20px;
+}
+
+a {
+    text-decoration: none;
+    color:#4d4d4d;
+}
