@@ -153,6 +153,8 @@ button{
     z-index:100;
     left:0;
     box-sizing: border-box;
+    transition: all 100ms ease;
+    transform-origin: center;
 }
 .header-container {
 	display: flex;
@@ -162,6 +164,8 @@ button{
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
+    transition: all 100ms ease;
+    transform-origin: center;
     
 }
 .nav-elm {
@@ -181,6 +185,8 @@ button{
 .cont-logo {
 	height: 70px;
 	margin: 5px;
+    transition: all 100ms ease;
+    transform-origin: center;
 }
 .footer {
     width:100%;
@@ -262,3 +268,4 @@ a {
     text-decoration: none;
     color:#4d4d4d;
 }
+.smaller{height:50px}

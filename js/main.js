@@ -1,10 +1,19 @@
-function myInit() {
-    /*new Vivus("my-svg", {
-        type: "delayed",
-        pathTimingFunction: Vivus.EASE_OUT,
-        animTimingFunction: Vivus.EASE_IN,
-        duration: 200,
-        start: "autostart",
-        delay: 2
-    },function(){document.getElementById('myG').classList.add("finished")})*/
+function init() {
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 50,
+            header = document.getElementsByClassName('header')[0],
+            logo = document.getElementsByClassName('cont-logo')[0],
+            head = document.getElementsByClassName('header-container')[0]
+        if (distanceY > shrinkOn) {
+            header.classList.add("smaller");
+            head.classList.add("smaller");
+            logo.classList.add("smaller");
+        } else {
+                header.classList.remove("smaller");
+            head.classList.remove("smaller");
+            logo.classList.remove("smaller");
+        }
+    });
 }
+window.onload = init();
