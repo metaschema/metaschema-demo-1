@@ -25,6 +25,18 @@
 
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
+<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCWu8y-IndM3Dz3j6tC8LFGmBJ4i15cvFk",
+    authDomain: "metaschema-demo-1.firebaseapp.com",
+    databaseURL: "https://metaschema-demo-1.firebaseio.com",
+    storageBucket: "metaschema-demo-1.appspot.com",
+    messagingSenderId: "471196180974"
+  };
+  firebase.initializeApp(config);
+</script>
 </head>
 <body onload="myInit()">
     <div class=wrapper>
