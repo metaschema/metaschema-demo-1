@@ -230,7 +230,7 @@ toggletree:function(button){document.body.classList.toggle('noleft');button.clas
 /* --------------------------------------------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------- RESULTS TABLE --- */
 	_record_odd:false,
-	search:function(exp,_collection){app.gototab('resultsview',gid('b_resultsview'));this._records_reset();f$.db.find(exp,app._on_records_results,app._on_records_removed,['societa','persona','location','file']);},
+	search:function(exp,_collection){app.gototab('resultsview',gid('b_resultsview'));this._records_reset();f$.db.find(exp,app._on_records_results,app._on_records_removed,['pages']);},
 	_curr_cols:{"$key":{idx:0},"collection":{idx:1},"parent":{idx:2},"tags":{idx:3},"rels":{idx:4}},_curr_cols_count:5,
 	_records_reset:function(){this._curr_cols={"$key":{idx:0},"doctitle":{idx:1},"collection":{idx:2},"parent":{idx:3},"tags":{idx:4},"rels":{idx:5}};this._curr_cols_count=6;
 		gid('resultsview').innerHTML='<table id="resultstable"><tbody><th><b>doctitle</b></th><th><b>collection</b></th><th><b>parent</b></th><th><b>tags</b></th><th><b>rels</b></th></tbody><tbody></tbody></table>';
